@@ -12,7 +12,7 @@ public class Arena {
     }
 
     private void renderuj() {
-        System.out.println("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-");
+        System.out.println("+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-");
         System.out.println("Zdrowie graczy: \n");
         System.out.println(gracz1 + " " + gracz1.hitPoints + "HP");
         System.out.println(gracz1 + " ma jeszcze " + gracz1.staminaPoints + " staminy" );
